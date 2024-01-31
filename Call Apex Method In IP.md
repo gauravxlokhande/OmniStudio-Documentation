@@ -3,33 +3,40 @@
 
 ```
 
-/*
-Change your class name from RemoteClass1
-Change your methodName in if condition (line 10 and line 21)
-*/
-global class RemoteClass1 implements vlocity_cmt.VlocityOpenInterface {
-    //InvokeMethod
-    global Boolean invokeMethod(String methodName, Map<String,Object> input, Map<String,Object> output, Map<String,Object> options){
-        try{
-            if(methodName =='generate') {
-                generate(input,output);
-                system.debug('Inside invoke method');
+global class TestClass implements Callable {
+    public Object call(String action, Map<String, Object> args) {
+        Map<String, Object> input = (Map<String, Object>)args.get('input');
+        Map<String, Object> output = (Map<String, Object>)args.get('output');
+        Map<String, Object> options = (Map<String, Object>)args.get('options');
+
+        if (action == 'invokeMethod') {
+            invokeMethod(input, output, options);  // called belowd method and passed params as needed
+        } else if (action == 'getperticularaccdata') {
+            getperticularaccdata(input, output); // called belowd method and passed params as needed
+        }
+
+        return null; // Adjust the return value as needed.
+    }
+
+    // Method One
+    private void invokeMethod(Map<String, Object> inputMap, Map<String, Object> outMap, Map<String, Object> options) {
+        List<Account> accList = [SELECT Id, Name FROM Account];
+        outMap.put('AccountList', accList);
+    }
+
+    // Method Two
+    private void getperticularaccdata(Map<String, Object> inputMap, Map<String, Object> outMap) {
+        List<Account> accList = [SELECT Id, Name FROM Account];
+
+        List<Account> accnewlist = new List<Account>();
+        for (Account acc : accList) {
+            if (acc.Name == 'Edge Communications') {
+                accnewlist.add(acc);
             }
         }
-        catch(exception e){
-            system.debug('Exception --> '+e.getMessage());
-        }
-        return null;
-    }
-    
-    public static void generate(Map<String,Object> input, Map<String,Object> output){
-        String name = String.valueOf(input.get('name'));
-        Integer randomNum = Integer.valueOf(math.random()*100000);
-        String timeNow = string.valueof(system.now());
-        system.debug('input --> '+input);
-        output.put('RandomNumber',randomNum);
-        output.put('Name',name);
-        output.put('Time',timeNow);
+
+        outMap.put('AccountName', accnewlist);
     }
 }
+
 ```
