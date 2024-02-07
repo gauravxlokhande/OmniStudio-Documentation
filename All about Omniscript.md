@@ -38,6 +38,20 @@ Edit
 ![Screenshot 2024-02-07 151750](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/c7a18775-a061-423f-94b0-c44d96b44369)
 
 
+# Embed OmniScript in Another OmniScript.
+
+<p> It is possible we can access the first omniscript in another omniscript. also we can pass the data of first omniscript to second omniscript.</p>
+
+![Screenshot 2024-02-07 161805](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/13740293-8201-48aa-9c57-ec37009c4624)
+
+![Screenshot 2024-02-07 161839](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/0f815039-6be6-4436-8829-6c7c22d7d559)
+
+![Screenshot 2024-02-07 161927](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/3b3f4b32-c2a1-468f-a8d6-583a0b94bf05)
+
+
+
+![Screenshot 2024-02-07 161830](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/dd738954-2565-4707-8fcf-942c4a63d1c2)
+
 
 
 
