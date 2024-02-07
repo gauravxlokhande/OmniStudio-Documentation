@@ -24,10 +24,10 @@ Edit
 ![Screenshot 2024-02-07 155716](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/2cdb6450-f0ac-4a57-a3c8-2ce99dc03857)
 
 
-
 ![Screenshot 2024-02-07 155904](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/b557ff47-cfa2-432c-a23b-589c11ecfd23)
 
-
+## Type ahead block same functionality using data json
+![Screenshot 2024-02-07 162823](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/1eb8a24d-2bb0-4342-b265-cf8146e92490)
 
 
 # Show data in omniscript using TEXT Block
