@@ -3,7 +3,7 @@
 ## flexcards are used to display the information or display images or getting data from data raptors and display on the fexcards
   - flexcards used to display data
   - display images or create different components that used to create a website.
-  - we can aslso shoe the data based on the field condition
+  - we can aslso show the data based on the field condition
 
 
 ## FlexCard States
