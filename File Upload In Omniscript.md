@@ -20,4 +20,9 @@ Setup-->Salesforce Files-->General Setting--> Allow-->Allow site guest users to 
 
                                                        or
 
-## Easy: Create data raptor post directly from Omniscript.
+## Easy: Create data raptor post directly from Omniscript. 
+
+# For Custome Fileupload through apexplease refer:
+```
+https://salesforce.stackexchange.com/questions/259877/why-lightningfileupload-doesnt-work-on-public-sites
+```
