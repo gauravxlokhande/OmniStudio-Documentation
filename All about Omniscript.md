@@ -1,5 +1,6 @@
 # Edit Block Omnistudio - Omniscript
-
+## Important Note: It is much importtant to do edit, delete, new operation on live data user remote method.
+ 
 <p>Edit Block is used for edit any records perticular fields also delete records and update records. by using edit we can be able to show data in the form of table card etc...</p>
 
 <p>Its important to take data in object in data raptor else data raptor extract dont show result in omniscript</p>
