@@ -6,7 +6,7 @@ Step1:
 ![Screenshot 2024-02-09 110921](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/559c6222-c291-45eb-97a3-22d414fc7a1b)
 
 Step 2:
-Make OMNISCRIPT Support= checked
+Make OMNISCRIPT Support= checked from setup
 ![Screenshot 2024-02-09 110954](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/1531ab31-814e-4b06-9c6a-860a85a3ea6e)
 
 Step 3:
