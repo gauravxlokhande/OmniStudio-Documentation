@@ -1,5 +1,5 @@
 # Edit Block Omnistudio - Omniscript
-## Important Note: It is much importtant to do edit, delete, new operation on live data user remote method.
+## MOst Most Important Note: It is much importtant to do edit, delete, new operation on live data user remote method.
  
 <p>Edit Block is used for edit any records perticular fields also delete records and update records. by using edit we can be able to show data in the form of table card etc...</p>
 
@@ -28,6 +28,17 @@ DefaultOmniScriptEditBlock
 Edit
 ```
 
+```
+new
+```
+
+```
+Delete
+```
+
+```
+View
+```
 # Type Ahead block In Omniscript
 
 <p>Tpye ahead block is used to search the data in it. as a name suggest typeahead when i search for perticulatr name then it shows me the other same name too</p>
