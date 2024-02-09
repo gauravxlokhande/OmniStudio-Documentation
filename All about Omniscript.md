@@ -7,6 +7,11 @@
 ![Screenshot 2024-02-09 152356](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/7a5ad1ae-b5df-4f30-ab18-42dfce16b9eb)
 ![Screenshot 2024-02-09 152329](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/4c738d5e-1fd1-45a2-b320-9c8c6587901e)
 
+<p>It is also important to gave object name to bloack</p>
+
+![Screenshot 2024-02-09 153450](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/2cd0da28-3cb3-4e0e-ae22-6473d8322b1a)
+
+
 
 ![Screenshot 2024-02-07 125541](https://github.com/gaurravlokhande/Salesforce-OmniStudio/assets/119065314/50eb9a5c-8cbe-49a0-a32f-b6aa8660ab03)
 
